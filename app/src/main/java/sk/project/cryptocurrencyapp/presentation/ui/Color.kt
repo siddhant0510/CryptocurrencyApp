@@ -1,4 +1,4 @@
-package sk.project.cryptocurrencyapp.ui.theme
+package sk.project.cryptocurrencyapp.presentation.ui
 
 import androidx.compose.ui.graphics.Color
 

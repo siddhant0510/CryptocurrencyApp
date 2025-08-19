@@ -1,4 +1,4 @@
-package sk.project.cryptocurrencyapp.ui.theme
+package sk.project.cryptocurrencyapp.presentation.ui
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme
