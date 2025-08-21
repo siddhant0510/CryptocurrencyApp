@@ -13,8 +13,8 @@ import sk.project.cryptocurrencyapp.common.Resource
 import sk.project.cryptocurrencyapp.domain.use_case.get_coins.GetCoinsUseCase
 import javax.inject.Inject
 
-@RequiresExtension(extension = Build.VERSION_CODES.S, version = 7)
 @HiltViewModel
+@RequiresExtension(extension = Build.VERSION_CODES.S, version = 7)
 class CoinListViewModel @Inject constructor(
     private val getCoinsUseCase: GetCoinsUseCase
 ) : ViewModel() {

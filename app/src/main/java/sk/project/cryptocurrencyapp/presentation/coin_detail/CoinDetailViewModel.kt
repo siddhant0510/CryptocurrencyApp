@@ -17,8 +17,8 @@ import sk.project.cryptocurrencyapp.domain.use_case.get_coin.GetCoinUseCase
 import sk.project.cryptocurrencyapp.domain.use_case.get_coins.GetCoinsUseCase
 import javax.inject.Inject
 
-@RequiresExtension(extension = Build.VERSION_CODES.S, version = 7)
 @HiltViewModel
+@RequiresExtension(extension = Build.VERSION_CODES.S, version = 7)
 class CoinDetailViewModel @Inject constructor(
     private val getCoinUseCase: GetCoinUseCase,
     savedStateHandel: SavedStateHandle

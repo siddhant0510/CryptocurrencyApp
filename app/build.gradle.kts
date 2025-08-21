@@ -70,8 +70,8 @@ dependencies {
     implementation(libs.kotlinx.coroutines.android)
 
     // Dagger - Hilt
-    implementation(libs.hilt.android.v2381)
-    kapt(libs.hilt.android.compiler)
+    implementation(libs.hilt.android)
+    kapt(libs.hilt.compiler)
     implementation(libs.androidx.hilt.navigation.compose)
 
     // Retrofit
